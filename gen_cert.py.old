@@ -227,8 +227,7 @@ class CertificateGen(object):
         # lookup long names from the course_id
         try:
             self.long_org = long_org or cert_data.get('LONG_ORG', '').encode('utf-8') or settings.DEFAULT_ORG
-            #self.long_course = long_course or cert_data.get('LONG_COURSE', '').encode('utf-8')
-            self.long_course = cert_data.get('LONG_COURSE', '').encode('utf-8')
+            self.long_course = long_course or cert_data.get('LONG_COURSE', '').encode('utf-8')
             self.issued_date = issued_date or cert_data.get('ISSUED_DATE', '').encode('utf-8') or 'ROLLING'
             self.interstitial_texts = collections.defaultdict(interstitial_factory())
             self.interstitial_texts.update(cert_data.get('interstitial', {}))
@@ -2288,7 +2287,8 @@ class CertificateGen(object):
 
         # SECTION: Course Title
         course_name_string = self.long_course.decode('utf-8')
-        course_title = u"<b>{0}</b>".format(course_name_string)
+        #course_title = u"<b>{0}</b>".format(course_name_string)
+        course_title = 'title'
 
         (fonttag, fontfile, course_style) = font_for_string(fontlist_with_style(style_big_course_text), course_title)
 

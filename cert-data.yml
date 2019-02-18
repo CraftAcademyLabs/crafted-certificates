@@ -19,3 +19,65 @@ course-v1:edX+DemoX_v3+Demo_Course_v3:
   interstitial:
     Pass: 'This person passed.'
     Distinction: 'This person is a complete overachiever!'
+
+course-v1:CraftAcademy+NECT-01+2018-1:
+  LONG_ORG: Craft Academy
+  LONG_COURSE: NECT All You Need To Know About Web Development 
+  VERSION: 3_dynamic
+  interstitial:
+    Pass: ' '
+    Distinction: 'This person is a complete overachiever!'
+
+course-v1:CraftAcademy+NECT-02+2018_june:
+  LONG_ORG: Craft Academy
+  LONG_COURSE: NECT All You Need To Know About Version Control 
+  VERSION: 3_dynamic
+  interstitial:
+    Pass: ' '
+    Distinction: 'This person is a complete overachiever!'
+
+course-v1:CraftAcademy+ITP-01+2018-05:
+  LONG_ORG: Craft Academy
+  LONG_COURSE: Introduction to programming
+  VERSION: 3_dynamic
+  interstitial:
+    Pass: ' '
+    Distinction: 'This person is a complete overachiever!'
+
+course-v1:CraftAcademy+ITP-01.2+18_19:
+  LONG_ORG: Craft Academy
+  LONG_COURSE: Introduction to Programming
+  VERSION: 3_dynamic
+  interstitial:
+    Pass: ' '
+    Distinction: 'This person is a complete overachiever!'
+
+
+course-v1:CraftAcademy+ITP-01+2018-05-NO-ID-PROFESSIONAL:
+  LONG_ORG: Craft Academy
+  LONG_COURSE: Introduction to programming
+  VERSION: 4_participation
+  interstitial:
+    Pass: ' '
+    Distinction: 'This person is a complete overachiever!'
+
+
+course-v1:CraftAcademy+Prep-3.0+Spring-18:
+  LONG_ORG: Craft Academy
+  LONG_COURSE: Prep Course 
+  COURSE_DESC: PART-TIME PREPARATORY COURSE
+  VERSION: 4_dynamic
+  interstitial:
+    Pass: ' '
+    Distinction: 'This person is a complete overachiever!'
+ 
+course-v1:CraftAcademy+CA-CC-01+2018:  
+  LONG_ORG: Craft Academy
+  LONG_COURSE: Coding as a Craft
+  COURSE_DESC: A 12 Week Full Stack Web Developer Bootcamp
+  VERSION: 4_dynamic
+  interstitial:
+    Pass: ' '
+    Distinction: 'This person is a complete overachiever!'
+
+
