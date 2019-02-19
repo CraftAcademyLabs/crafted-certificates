@@ -1,38 +1,43 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-<head>
- <meta charset="UTF-8">
- <title>Valid {CERTS_ARE_CALLED} Number</title>
- <link rel="stylesheet" href="/stylesheets/base.css">
-</head>
-<body>
-  <header>
-    <h1>OpenEdX</h1>
-  </header>
-
-  <section>
-    <header class="valid">
-      <h1>This is a valid edX {CERTS_ARE_CALLED} number for <span>{NAME}</span></h1>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Valid {CERTS_ARE_CALLED} Number</title>
+    <link rel="stylesheet" href="stylesheets/base.css" />
+  </head>
+  <body>
+    <header>
+      <h1>openedx</h1>
     </header>
 
     <section>
-      <dl>
-        <dt>Student Name</dt>
-        <dd>{NAME}</dd>
-        <dt>Identifier number</dt>
-        <dd>{CERTIFICATE_ID}</dd>
-        <dt>Course</dt>
-        <dd>{COURSE}</dd>
-        <dd class="description">A course of study offered by {ORG}, an online learning initiative of {ORG_LONG}, through OpenEdX, the premier open source online learning platform.</dd>
-      </dl>
-    </section>
+      <header class="valid">
+        <h1>
+          This is a valid Craft Academy {CERTS_ARE_CALLED} number for
+          <span>{NAME}</span>
+        </h1>
+      </header>
 
-  </section>
-  <footer>
-    <p>{SIGNATURE}
-    </p>
-    <a href="{SIG_URL}" class="download">Download this signature</a>
-    <a href="{VERIFY_URL}" class="what">What is this?</a>
-  </footer>
-</body>
+      <section>
+        <dl>
+          <dt>Student Name</dt>
+          <dd>{NAME}</dd>
+          <dt>Identifier number</dt>
+          <dd>{CERTIFICATE_ID}</dd>
+          <dt>Course</dt>
+          <dd>{COURSE}</dd>
+          <dd class="description">
+            A course of study offered by {ORG}, an online learning initiative of
+            {ORG_LONG}, through OpenEdX, the premier open source online learning
+            platform.
+          </dd>
+        </dl>
+      </section>
+    </section>
+    <footer>
+      <p>{SIGNATURE}</p>
+      <a href="{SIG_URL}" class="download">Download this signature</a>
+      <a href="{VERIFY_URL}" class="what">What is this?</a>
+    </footer>
+  </body>
 </html>
