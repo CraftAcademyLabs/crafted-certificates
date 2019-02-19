@@ -1,9 +1,12 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <title>Validate the {CERTS_ARE_CALLED}</title>
- <link rel="stylesheet" href="/stylesheets/base.css">
+  <meta charset="UTF-8">
+  <title>Validate the {CERTS_ARE_CALLED}</title>
+  <link
+    rel="stylesheet"
+    href="https://s3-us-west-2.amazonaws.com/ca-openedx-assets/certificate_template_assets/1/base.css"
+  />
 </head>
 <body class="verify">
 
@@ -47,13 +50,13 @@
       <ul>
         <li><p>Download and install <a href="http://www.gpgtools.org/installer/index.html">gpgtools</a>.</p></li>
         <li><p>After installation, GPG Keychain Access will prompt for a new personal keypair.</p>
-          <p><img class="ss" src="/images/osxgpg-new-keypair.png" alt="new keypair" /></p>
+          <p><img class="ss" src="https://s3-us-west-2.amazonaws.com/ca-openedx-assets/certificate_template_assets/1/osxgpg-new-keypair.png" alt="new keypair" /></p>
         </li>
         <li><p>Click the import icon to import the public key file, <i>openedx.pub</i>.</p></li>
         <li><p>CTRL-click the public key and select "sign" to validate it.</p>
-          <p><img class="ss" src="/images/osxgpg-sign-key.png" alt="sign key"/></p></li>
+          <p><img class="ss" src="https://s3-us-west-2.amazonaws.com/ca-openedx-assets/certificate_template_assets/1/osxgpg-sign-key.png" alt="sign key"/></p></li>
           <li><p>Confirm that the public key is listed in the GPG Keychain Access window and it has Short ID {CERT_KEY_ID}.</p>
-        <img class="ss" src="/images/osxgpg-key-list.png" alt="sign key"/></li>
+        <img class="ss" src="https://s3-us-west-2.amazonaws.com/ca-openedx-assets/certificate_template_assets/1/osxgpg-key-list.png" alt="sign key"/></li>
     </ul>
   </section>
 
@@ -67,14 +70,14 @@
       <li><p>Download and install the full version of <a href="http://www.gpg4win.org/download.html">gpg4win</a>.</p></li>
       <li><p>After the installation is complete, launch Kleapatra from the start menu.</p></li>
       <li><p>Create a new personal certificate if don't have one listed under "My Certificates". </p>
-        <p><img class="ss" src="/images/wingpg-new-cert.png" alt="new certificate" /> </p></li>
+        <p><img class="ss" src="https://s3-us-west-2.amazonaws.com/ca-openedx-assets/certificate_template_assets/1/wingpg-new-cert.png" alt="new certificate" /> </p></li>
       <p>When prompted, select "Create personal OpenPGP key pair."</p>
-      <p><img class="ss" src="/images/wingpg-new-cert2.png" alt="new certificate" /></p> </li>
+      <p><img class="ss" src="https://s3-us-west-2.amazonaws.com/ca-openedx-assets/certificate_template_assets/1/wingpg-new-cert2.png" alt="new certificate" /></p> </li>
       <li><p>Import the public key file, <i>openedx.pub</i> by clicking on the "Import Certificate" icon.</p></li>
     <li><p>Certify the public key by highlighting the new public key/certificate and selecting "Certify Certificate" under the "Certificates" menu.</p>
-      <p><img class="ss" src="/images/wingpg-certify-cert.png" alt="certify certificate" /></p> </li>
+      <p><img class="ss" src="https://s3-us-west-2.amazonaws.com/ca-openedx-assets/certificate_template_assets/1/wingpg-certify-cert.png" alt="certify certificate" /></p> </li>
     <li><p>Make sure that the public key/certificate is listed under the "Trusted Certificates" tab and verify it has the Key-ID {CERT_KEY_ID}.</p>
-      <p><img class="ss" src="/images/wingpg-verify-cert.png" alt="verify the certificate" /></p> </li>
+      <p><img class="ss" src="https://s3-us-west-2.amazonaws.com/ca-openedx-assets/certificate_template_assets/1/wingpg-verify-cert.png" alt="verify the certificate" /></p> </li>
   </ul>
 </section>
 
